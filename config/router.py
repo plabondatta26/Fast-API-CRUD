@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from core.database import engine
+from config.database import engine
 import os
 from importlib import import_module
 

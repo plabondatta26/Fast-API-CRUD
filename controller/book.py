@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException, Depends, APIRouter
-from core.database import Session_Local, get_db
+from config.database import Session_Local, get_db
 from sqlalchemy.orm import Session
 from models import book as book_model
 from schema.book_schema import BookCreateSchema, BookSchema
